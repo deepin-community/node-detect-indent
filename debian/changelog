@@ -1,0 +1,32 @@
+node-detect-indent (6.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Paolo Greppi ]
+  * Update Vcs fields for migration to https://salsa.debian.org/
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Repository, Repository-
+    Browse.
+  * Set upstream metadata fields: Bug-Submit.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * New upstream version 6.0.0
+  * Use pkg-js-tools auto test & install
+  * Update test (use tape)
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 13 May 2020 21:51:19 +0200
+
+node-detect-indent (5.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #846204)
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Fri, 02 Dec 2016 15:04:43 +0000

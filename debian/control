@@ -1,0 +1,24 @@
+Source: node-detect-indent
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 12)
+ , node-tape <!nocheck>
+ , pkg-js-tools (>= 0.9.35~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-detect-indent
+Vcs-Git: https://salsa.debian.org/js-team/node-detect-indent.git
+Homepage: https://github.com/sindresorhus/detect-indent
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-detect-indent
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Description: Detect the indentation of code
+ Node.js module to get the amount and type of indentation (tab, space
+ or null) of a string of any kind of text.
+ .
+ Node.js is an event-based server-side JavaScript engine.
